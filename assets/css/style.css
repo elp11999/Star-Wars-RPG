@@ -1,0 +1,122 @@
+/*
+ * CSS for Star Wars
+ */
+ 
+@font-face {
+  font-family: StarWars;
+  src: url(../fonts/STARWARS.woff);
+}
+
+body {
+    font-family: 'StarWars', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    background: url(../images/starwars5.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.title {
+   margin-right: 100px;
+   text-align: right;
+ }
+
+.headerx {
+    position: relative;
+    height: 75px;
+}
+
+.titlex {
+    position: absolute;
+    top: 10px;
+    right: 100px;
+ }
+
+ .players {
+     display: inline-block;
+     width: auto;
+     height: auto;
+     max-width: 100%;
+ }
+
+ .player {
+     float: left;
+     background-color: #fff;
+     margin-bottom: 5px;
+     margin-right: 5px;
+     padding: 0 10px;
+ }
+
+ .enemies {
+     display: none;
+     width: auto;
+     height: auto;
+     max-width: 100%;
+ } 
+
+ .enemy {
+     float: left;
+     background-color: red;
+     margin-right: 5px;
+     padding: 0 10px;
+ }
+
+ .defenders {
+     display: none;
+     width: auto;
+     height: auto;
+     max-width: 100%;
+ }
+
+ .defender {
+    float: left;
+    background-color: #000;
+    margin-right: 5px;
+    padding: 0 10px;
+ }
+ 
+.enemyname,
+.enemyhealth {
+    font-size: 10px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+ 
+.playername,
+.playerhealth {
+    font-size: 10px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.defendername,
+.defenderhealth {
+    font-size: 10px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.playerimage:hover {
+    outline: 5px solid #000;
+    outline-offset: 1px;
+}
+
+ .enemyimage:hover {
+     outline: 5px solid #fff;
+     outline-offset: 1px;
+}
+
+.defenderimage:hover {
+    outline: 5px solid red;
+    outline-offset: 1px;
+}
+
+#replay {
+    display: none;
+}
